@@ -1,0 +1,6 @@
+---
+  - hosts: all
+    tasks:
+      - name: Get hostname from remote target!
+        command: hostname
+   

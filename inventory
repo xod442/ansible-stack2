@@ -1,0 +1,18 @@
+[loadbalancer]
+lb01 ansible_user=rick ansible_connection=ssh
+
+[webserver]
+app01
+app02
+
+[database]
+db01
+
+[control]
+zorinAnsible ansible_connection=local
+
+[min]
+lb01
+db01
+app01
+app02
