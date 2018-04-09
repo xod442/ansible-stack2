@@ -12,7 +12,7 @@ three tier web application role out
                    |                    |                                      |
             +-------------+        +-------------+  +-------------+        +-------------+
             |loadbalancer |        |   app01     |  |   app02     |        |   database  |
-            |             |        | webserver   |  | webserver   |        |             |
+            |   lb01      |        | webserver   |  | webserver   |        |     db01    |
             +-------------+        +-------------+  +-------------+        +-------------+ 
 
 This set of ansible playbooks provision the three tier application and also includes the test functionality 
